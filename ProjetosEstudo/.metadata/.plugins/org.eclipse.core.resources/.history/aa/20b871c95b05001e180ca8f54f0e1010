@@ -1,0 +1,62 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Formatar: toLowerCase(), toUpperCase(), trim()
+		//Recortar: substring(inicio), substring(inicio,fim)
+		//Substituir: Replace(char,char), Replace(string,string)
+		//Buscar: IndexOf, LastIndexOf
+		//str.Split("")
+		
+		String original = "abcde FGHIJ ABC abc DEFG   "; 
+		System.out.println("Original: -" + original + "-");
+		
+		//toLowerCase();
+		String s01 = original.toLowerCase();
+		System.out.println("toLowerCase: -" + s01 + "-");
+		
+		//toUpperCase();
+		String s02 = original.toUpperCase();
+		System.out.println("toUpperCase: -" + s02 + "-");
+		
+		//trim(); Remove os espaços em branco
+		String s03 = original.trim();
+		System.out.println("trim: -" + s03 + "-");
+		
+		//substring(n1, n2); recorta a string (inicio, fim)
+		String s04 = original.substring(2);
+		System.out.println("substring(2): -" + s04 + "-");
+		
+		//substring(n1, n2); recorta a string (inicio, fim)
+		String s05 = original.substring(2, 9);
+		System.out.println("substring(2, 9): -" + s05 + "-");
+		
+		//replace(a , x); substitui um carácter por outro
+		String s06 = original.replace("a", "x");
+		System.out.println("replace(a, x): -" + s06 + "-");
+		
+		//replace("abc", "xy"); substitui uma string  por outra
+		String s07 = original.replace("abc", "xy");
+		System.out.println("replace(abc, xy): -" + s07 + "-");
+		
+		//indexOf("bc"); numero da posiçao da primeira ocorrencia do string
+		int i = original.indexOf("bc");
+		System.out.println("indexOf 'bc':" + i);
+		
+		//lastIndexOf("bc"); numero da posiçao da ultima ocorrencia do string
+		int j = original.lastIndexOf("bc");
+		System.out.println("lastIndexOf 'bc':" + j);
+		
+		//Split("");
+		String[] vect = s03.split(" ");
+		String vetor1 = vect[0];
+		String vetor2 = vect[1];
+		String vetor3 = vect[2];
+		String vetor4 = vect[3];
+		System.out.println(vetor1,vetor1);
+
+		
+
+	}
+
+}

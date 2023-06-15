@@ -1,0 +1,27 @@
+package exercicio4;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por
+		//hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas
+		//decimais.
+		
+		int numero;
+		double horasTrabalhadas, valorPorHoras;
+		
+		System.out.println("Digite o numero do funcionário: ");
+		Scanner sc = new Scanner(System.in);
+		numero = sc.nextInt();
+		System.out.println("Digite as horas trabalhadas, e a valor por horas ");
+	
+		
+		
+		
+		
+		sc.close();
+
+	}
+}

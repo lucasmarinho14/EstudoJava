@@ -1,0 +1,3 @@
+INDEX VERSION 1.132+/home/lucasmarinho/EstudoJava/ProjetosEstudo/exercicios-logica/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3097635234.index
